@@ -1,0 +1,29 @@
+{
+  "name": "reja",
+  "version": "1.0.0",
+  "description": "Bu birinchi loyihamiz.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "train": "nodemon train.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guli-Stack",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gulfiya-stack/reja.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/gulfiya-stack/reja/issues"
+  },
+  "homepage": "https://github.com/gulfiya-stack/reja#readme"
+}
