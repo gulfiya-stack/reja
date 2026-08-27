@@ -19,7 +19,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/gulfiya-stack/reja.git"
+    "url": "git+https://github.com/gulfiya-stack/reja.git"
   },
   "keywords": [],
   "bugs": {
