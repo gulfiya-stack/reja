@@ -79,6 +79,9 @@
     position: relative;
     width: 221px;
     height: 126px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .main_frame .left_frame .left_3 {
     position: relative;
@@ -164,7 +167,6 @@
 }
 
 .left-icons {
-    /* Social Icon */
 
 position: relative;
 width: 228px;
@@ -182,7 +184,6 @@ justify-content: space-between;
 }
 
 .icon {
-    /* Ellipse 9 */
 
     position: relative;
     width: 24.99px;
@@ -197,7 +198,6 @@ justify-content: space-between;
 
 
 .icon-1 {
-    /* Icons-facebook */
 
     width: 100%;
     height: 100;
