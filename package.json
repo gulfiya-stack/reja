@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "train": "nodemon train.js",
+    "async":"nodemon 22_Async_function.js",
+    "callback": "node 21_Callback_function.js",
+    "train": "node train.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Guli-Stack",
@@ -14,9 +16,9 @@
   "dependencies": {
     "ejs": "^6.0.1",
     "express": "^5.2.1",
-    "nodemon": "^3.1.14"
+    "nodemon": "^3.1.14",
+    "prompt-sync": "^4.2.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gulfiya-stack/reja.git"
