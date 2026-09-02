@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "async":"nodemon 22_Async_function.js",
+    "async": "nodemon 22_Async_function.js",
     "callback": "node 21_Callback_function.js",
     "train": "node train.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,5 +27,6 @@
   "bugs": {
     "url": "https://github.com/gulfiya-stack/reja/issues"
   },
-  "homepage": "https://github.com/gulfiya-stack/reja#readme"
+  "homepage": "https://github.com/gulfiya-stack/reja#readme",
+  "devDependencies": {}
 }
