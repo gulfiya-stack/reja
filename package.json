@@ -16,6 +16,7 @@
   "dependencies": {
     "ejs": "^6.0.1",
     "express": "^5.2.1",
+    "mongodb": "^3.2.6",
     "nodemon": "^3.1.14",
     "prompt-sync": "^4.2.0"
   },
@@ -27,6 +28,5 @@
   "bugs": {
     "url": "https://github.com/gulfiya-stack/reja/issues"
   },
-  "homepage": "https://github.com/gulfiya-stack/reja#readme",
-  "devDependencies": {}
+  "homepage": "https://github.com/gulfiya-stack/reja#readme"
 }
