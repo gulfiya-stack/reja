@@ -1,5 +1,5 @@
-const dns = require("dns");
-dns.setServers(["8.8.8.8", "1.1.1.1"]);
+// const dns = require("dns");
+// dns.setServers(["8.8.8.8", "1.1.1.1"]);
 
 const http = require("http");
 const mongodb = require("mongodb");
@@ -7,9 +7,9 @@ const mongodb = require("mongodb");
 let db;
 
 const connectionString =
-    "mongodb+srv://guli-stack:YOUR_PASSWORD@cluster0.lkjwjb0.mongodb.net/Reja?authSource=admin";
+    "mongodb+srv://guli-stack:wza2wGmlldvE4GZO@cluster0.lkjwjb0.mongodb.net/Reja?authSource=admin";
 
-mongodb.MongoClient.connect(
+mongodb.connect(
     connectionString,
     {
         useNewUrlParser: true,

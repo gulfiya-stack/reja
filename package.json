@@ -14,8 +14,8 @@
   "author": "Guli-Stack",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^6.0.1",
-    "express": "^5.2.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
     "mongodb": "^3.2.6",
     "nodemon": "^3.1.14",
     "prompt-sync": "^4.2.0"
@@ -28,5 +28,6 @@
   "bugs": {
     "url": "https://github.com/gulfiya-stack/reja/issues"
   },
-  "homepage": "https://github.com/gulfiya-stack/reja#readme"
+  "homepage": "https://github.com/gulfiya-stack/reja#readme",
+  "devDependencies": {}
 }
