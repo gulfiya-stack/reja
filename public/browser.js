@@ -45,9 +45,31 @@ axios
     createField.focus();
 })
 .catch((err) => {
-    console.log("Qatadan harakat qiling!!!")
+    console.log("Qaytadan harakat qiling!!!")
 });
+});
+document.addEventListener("click", function (e) {
 
-
-}
-);
+    // console.log(e);
+    // Delete operations
+    console.log(e.target);
+    if (e.target.classList.contains("delete-me")) {
+        // alert ("Siz Delete tugmasini bosdingiz");
+        if(confirm("Siz aniq o'chiqmoqchimisiz?")) {
+            //alert("Yes deb javob berildi");
+            axios.post("/delete-item", {id: e.target.getAttribute("data-id")})
+            .then(response=>{
+                console.log(response.data);
+                e.target.parentElement.parentElement.remove();
+            })
+            .catch(err=>{console.log("Qaytadan harakat qiling!!!")});
+        }
+        // else {
+        //     alert("No deb javob berildi");
+        // }
+    }
+    // Edit operations
+    if (e.target.classList.contains("edit-me")) {
+         alert ("Siz Edit tugmasini bosdingiz");
+    }
+});
