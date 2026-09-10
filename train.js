@@ -1,22 +1,36 @@
+                                                //Task-E
+function getReverse(text) {
+    let reversed = text
+    .split("")
+    .reverse()
+    .join("");
+    console.log(reversed);
+    
+}                                                
+getReverse("hello");
+getReverse("guli-stack");
+getReverse('Hello World');
+
+                                                
                                                 //Task-D
 // Ikkita parametra ega function tuzing, va functioning berilgan birinchi va ikkinchi parametr qiymatlari o'zaro 
 // to'liq mos kelsa true qiymat qaytarsin.
 
 // Masalan: checkContent("mitgroup", "gmtiprou") return true
 
-function checkContent(a, b) {
-    const wordA = a.split("");
-    const wordB = b.split("");
+// function checkContent(a, b) {
+//     const wordA = a.split("");
+//     const wordB = b.split("");
 
-    arrayA = wordA.sort();
-    arrayB = wordB.sort();
-    console.log(arrayA.toString()===arrayB.toString());
-}
+//     arrayA = wordA.sort();
+//     arrayB = wordB.sort();
+//     console.log(arrayA.toString()===arrayB.toString());
+// }
 
 
-checkContent("mitgroup", "gmtiprou");
-checkContent("rejalar", "rlaejar");
-checkContent("adventures", "adventure");
+// checkContent("mitgroup", "gmtiprou");
+// checkContent("rejalar", "rlaejar");
+// checkContent("adventures", "adventure");
 
 
 
