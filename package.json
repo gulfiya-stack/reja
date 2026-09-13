@@ -29,5 +29,6 @@
   "bugs": {
     "url": "https://github.com/gulfiya-stack/reja/issues"
   },
-  "homepage": "https://github.com/gulfiya-stack/reja#readme"
+  "homepage": "https://github.com/gulfiya-stack/reja#readme",
+  "devDependencies": {}
 }

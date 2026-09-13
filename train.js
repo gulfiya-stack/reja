@@ -1,15 +1,33 @@
-                                                //Task-E
-function getReverse(text) {
-    let reversed = text
-    .split("")
-    .reverse()
-    .join("");
-    console.log(reversed);
+                                                //Task-F
+function findDoublers(text) {
+    const result = text.split("");
+    const sorted = result.sort();
+
+    for (let i = 0; i<sorted.length; i++) {
+        if (sorted[i] === sorted[i+1]) {
+            console.log("true");
+            return true;
+        } 
+    }
+    console.log("false");
+    return false;
+}
+findDoublers("train");
+findDoublers("hello");
+
+
+                                                    //Task-E
+// function getReverse(text) {
+//     let reversed = text
+//     .split("")
+//     .reverse()
+//     .join("");
+//     console.log(reversed);
     
-}                                                
-getReverse("hello");
-getReverse("guli-stack");
-getReverse('Hello World');
+// }                                                
+// getReverse("hello");
+// getReverse("guli-stack");
+// getReverse('Hello World');
 
                                                 
                                                 //Task-D
