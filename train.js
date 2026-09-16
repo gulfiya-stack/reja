@@ -1,19 +1,49 @@
-                                                //Task-F
-function findDoublers(text) {
-    const result = text.split("");
-    const sorted = result.sort();
+                                                 //Task -G
+/* 
+Yagona parametrga ega function tuzing. Array tarkibidagi birinchi eng katta qiymatning indeksini qaytarsin.
 
-    for (let i = 0; i<sorted.length; i++) {
-        if (sorted[i] === sorted[i+1]) {
-            console.log("true");
-            return true;
-        } 
+Masalan: getHighestIndex([5, 21, 12, 21, 8]) return 1
+
+*/                                               
+numbers = [5, 21, 12, 21, 8];
+function getHighestIndex(a) {
+        let num = a[0];
+        let numIndex = [0];
+    for (let i = 0; i<a.length; i++)  {
+
+
+        if (a[i] > num) {
+          num = a[i];
+          numIndex = i;
+    
+        }
+
+   
     }
-    console.log("false");
-    return false;
+ console.log(numIndex)
 }
-findDoublers("train");
-findDoublers("hello");
+
+getHighestIndex(numbers)
+
+
+
+
+                                                       //Task-F
+// function findDoublers(text) {
+//     const result = text.split("");
+//     const sorted = result.sort();
+
+//     for (let i = 0; i<sorted.length; i++) {
+//         if (sorted[i] === sorted[i+1]) {
+//             console.log("true");
+//             return true;
+//         } 
+//     }
+//     console.log("false");
+//     return false;
+// }
+// findDoublers("train");
+// findDoublers("hello");
 
 
                                                     //Task-E
