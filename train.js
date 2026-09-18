@@ -1,3 +1,31 @@
+                                                //Task-K
+// Berilayotgan parametr tarkibida nechta unli harf bor ekanligini aniqlovchi function tuzing.
+
+// Masalan: countVowels("string") return 1
+                                                 
+function countVowels(text) {
+    let count = 0;
+    for (let i=0; i<text.length; i++) {
+        if (
+            text[i] === 'a' ||
+            text[i] === 'o' ||
+            text[i] === 'u' || 
+            text[i] === 'e' || 
+            text[i] === 'i' 
+            ) {
+            count = count+1;
+
+        }
+    }
+    console.log(count);
+    return count;
+    
+
+}                                      
+//CALL
+countVowels('generalisation');                                     
+                                                 
+                                                 
                                                  //Task -G
 /* 
 Yagona parametrga ega function tuzing. Array tarkibidagi birinchi eng katta qiymatning indeksini qaytarsin.
@@ -5,25 +33,25 @@ Yagona parametrga ega function tuzing. Array tarkibidagi birinchi eng katta qiym
 Masalan: getHighestIndex([5, 21, 12, 21, 8]) return 1
 
 */                                               
-numbers = [5, 21, 12, 21, 8];
-function getHighestIndex(a) {
-        let num = a[0];
-        let numIndex = [0];
-    for (let i = 0; i<a.length; i++)  {
+// numbers = [5, 21, 12, 21, 8];
+// function getHighestIndex(a) {
+//         let num = a[0];
+//         let numIndex = [0];
+//     for (let i = 0; i<a.length; i++)  {
 
 
-        if (a[i] > num) {
-          num = a[i];
-          numIndex = i;
+//         if (a[i] > num) {
+//           num = a[i];
+//           numIndex = i;
     
-        }
+//         }
 
    
-    }
- console.log(numIndex)
-}
+//     }
+//  console.log(numIndex)
+// }
 
-getHighestIndex(numbers)
+// getHighestIndex(numbers)
 
 
 
