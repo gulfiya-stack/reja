@@ -1,29 +1,50 @@
+// Task-L
+
+// So'zlarni ketma-ketligini buzmasdan har bir so'zni alohida teskarisiga o'girib beradigan function tuzing.
+
+// Masalan: reverseSentence("we like coding!") return "ew ekil !gnidoc"                                                
+function reverseSentence(text) {
+    let words = text.split(" ");
+    let result = "";
+
+    for (let i of words) {
+        let reversed = i.
+        split("")
+        .reverse()
+        .join("") + " ";
+        result = result + reversed;
+    }
+
+    console.log(result);
+}
+
+reverseSentence("we like coding!");
                                                 //Task-K
 // Berilayotgan parametr tarkibida nechta unli harf bor ekanligini aniqlovchi function tuzing.
 
 // Masalan: countVowels("string") return 1
                                                  
-function countVowels(text) {
-    let count = 0;
-    for (let i=0; i<text.length; i++) {
-        if (
-            text[i] === 'a' ||
-            text[i] === 'o' ||
-            text[i] === 'u' || 
-            text[i] === 'e' || 
-            text[i] === 'i' 
-            ) {
-            count = count+1;
+// function countVowels(text) {
+//     let count = 0;
+//     for (let i=0; i<text.length; i++) {
+//         if (
+//             text[i] === 'a' ||
+//             text[i] === 'o' ||
+//             text[i] === 'u' || 
+//             text[i] === 'e' || 
+//             text[i] === 'i' 
+//             ) {
+//             count = count+1;
 
-        }
-    }
-    console.log(count);
-    return count;
+//         }
+//     }
+//     console.log(count);
+//     return count;
     
 
-}                                      
-//CALL
-countVowels('generalisation');                                     
+// }                                      
+// //CALL
+// countVowels('generalisation');                                     
                                                  
                                                  
                                                  //Task -G
